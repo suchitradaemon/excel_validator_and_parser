@@ -1,2 +1,2 @@
 # excel_validator_and_parser
-Generic config based customizable validator and parser for excel input
+Generic config based customizable validator and parser for excel input with JSON output
