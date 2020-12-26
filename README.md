@@ -19,6 +19,7 @@ function validator(validator_function, details) {
     }
     return response.length ? response : null;
 }
+
 let wb = parser.get_workbook({
     file_name: './test/test_file.xlsx',
     options: {
@@ -167,7 +168,9 @@ let wb = parser.get_workbook({
         }
     }
 });
+
 Object.keys(wb.sheets).forEach((key) => {
     console.log(JSON.stringify(wb.sheets[key].metadata), JSON.stringify(wb.sheets[key].data))
 });
+
 console.log("response", Object.keys(wb), JSON.stringify(wb.validations))
