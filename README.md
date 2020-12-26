@@ -3,9 +3,9 @@ Generic config based customizable validator and parser for excel input with JSON
 
 Example usage
 
+```javascript
 let parser = require('@suchitradaemon/excel_validator_and_parser');
 
-```javascript
 function validator(validator_function, details) {
     let { value } = details || {};
     let validation = validator_function.validate(value),
