@@ -5,6 +5,7 @@ Example usage
 
 let parser = require('@suchitradaemon/excel_validator_and_parser');
 
+```javascript
 function validator(validator_function, details) {
     let { value } = details || {};
     let validation = validator_function.validate(value),
@@ -174,3 +175,4 @@ Object.keys(wb.sheets).forEach((key) => {
 });
 
 console.log("response", Object.keys(wb), JSON.stringify(wb.validations))
+```
