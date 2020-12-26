@@ -1,0 +1,34 @@
+{
+  "name": "@suchitradaemon/excel_validator_and_parser",
+  "version": "1.0.0",
+  "description": "Generic config based customizable validator and parser for excel input with JSON output",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suchitradaemon/excel_validator_and_parser.git"
+  },
+  "keywords": [
+    "excel",
+    "validation",
+    "data-driven",
+    "config",
+    "generic-parser",
+    "customizable",
+    "input",
+    "json-output"
+  ],
+  "author": "Suchitra Nair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suchitradaemon/excel_validator_and_parser/issues"
+  },
+  "homepage": "https://github.com/suchitradaemon/excel_validator_and_parser#readme",
+  "dependencies": {
+    "@hapi/joi": "15.1.0",
+    "boom": "^7.3.0",
+    "xlsx": "^0.16.9"
+  }
+}

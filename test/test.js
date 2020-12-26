@@ -1,9 +1,6 @@
-# excel_validator_and_parser
-Generic config based customizable validator and parser for excel input with JSON output.
-
-Example usage
-
-let parser = require('@suchitradaemon/excel_validator_and_parser');
+let constants = require('../utils/constants')
+let parser = require('../index');
+let Joi = require('@hapi/joi')
 
 function validator(validator_function, details) {
     let { value } = details || {};
